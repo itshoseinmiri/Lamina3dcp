@@ -1,0 +1,58 @@
+{
+  "services": [
+    {
+      "id": "rapid-prototyping",
+      "name": "Rapid Prototyping",
+      "description": "Fast turnaround of physical prototypes from digital designs, enabling quick design validation and iteration before committing to production.",
+      "category": "Prototyping"
+    },
+    {
+      "id": "industrial-3d-printing",
+      "name": "Industrial 3D Printing",
+      "description": "Industrial-grade additive manufacturing for durable, dimensionally accurate parts suited to demanding applications.",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "additive-manufacturing",
+      "name": "Additive Manufacturing",
+      "description": "End-to-end additive manufacturing services that build parts layer by layer directly from digital models.",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "custom-parts",
+      "name": "Custom Part Production",
+      "description": "Production of bespoke parts tailored to specific geometries, tolerances, and functional requirements.",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "product-development",
+      "name": "Product Development Support",
+      "description": "Hands-on support across the product development lifecycle, from concept refinement to manufacturable design.",
+      "category": "Engineering"
+    },
+    {
+      "id": "engineering-consultation",
+      "name": "Engineering Consultation",
+      "description": "Expert engineering guidance on design for additive manufacturing, material selection, and process optimization.",
+      "category": "Engineering"
+    },
+    {
+      "id": "low-volume-manufacturing",
+      "name": "Low-Volume Manufacturing",
+      "description": "Cost-effective low-volume production runs without the tooling costs associated with traditional manufacturing.",
+      "category": "Manufacturing"
+    },
+    {
+      "id": "functional-prototypes",
+      "name": "Functional Prototypes",
+      "description": "Working prototypes built with production-representative materials for real-world testing and validation.",
+      "category": "Prototyping"
+    },
+    {
+      "id": "manufacturing-optimization",
+      "name": "Manufacturing Optimization",
+      "description": "Analysis and refinement of designs and processes to improve manufacturability, performance, and efficiency.",
+      "category": "Engineering"
+    }
+  ]
+}

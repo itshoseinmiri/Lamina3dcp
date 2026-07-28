@@ -1,0 +1,52 @@
+{
+  "industries": [
+    {
+      "id": "automotive",
+      "name": "Automotive",
+      "description": "Additive manufacturing solutions for the automotive sector, supporting design iteration, tooling, and specialty components.",
+      "exampleApplications": ["Prototype components", "Custom brackets and fixtures", "Jigs and manufacturing aids", "Low-volume specialty parts"]
+    },
+    {
+      "id": "aerospace",
+      "name": "Aerospace",
+      "description": "Precision additive manufacturing for aerospace applications where geometry, weight, and performance matter.",
+      "exampleApplications": ["Lightweight structural prototypes", "Complex ducting and housings", "Functional test parts", "Tooling and fixtures"]
+    },
+    {
+      "id": "architecture",
+      "name": "Architecture",
+      "description": "3D printing services supporting architectural visualization and detailed physical models.",
+      "exampleApplications": ["Scale architectural models", "Facade and detail studies", "Concept presentation models"]
+    },
+    {
+      "id": "industrial-equipment",
+      "name": "Industrial Equipment",
+      "description": "Durable additive parts for industrial machinery, equipment, and production environments.",
+      "exampleApplications": ["Replacement components", "Custom enclosures", "Machine fixtures", "Functional end-use parts"]
+    },
+    {
+      "id": "consumer-products",
+      "name": "Consumer Products",
+      "description": "Prototyping and low-volume production supporting consumer product design and market validation.",
+      "exampleApplications": ["Design prototypes", "Ergonomic mockups", "Limited product runs", "Packaging concepts"]
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "description": "Additive manufacturing for electronics enclosures, housings, and functional prototype components.",
+      "exampleApplications": ["Device housings", "Mounting brackets", "Enclosure prototypes", "Custom connectors and fixtures"]
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare",
+      "description": "3D printing support for healthcare-related product development and prototyping.",
+      "exampleApplications": ["Device prototypes", "Anatomical models", "Custom fixtures", "Product development mockups"]
+    },
+    {
+      "id": "startups",
+      "name": "Startups",
+      "description": "Flexible prototyping and low-volume manufacturing helping startups move from idea to physical product.",
+      "exampleApplications": ["MVP prototypes", "Investor demonstration models", "Bridge production runs", "Rapid design iteration"]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lamina 3DCP Services",
+  "description": "Additive manufacturing and 3D printing services offered by Lamina 3DCP.",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Service",
+        "name": "Rapid Prototyping",
+        "description": "Fast turnaround of physical prototypes from digital designs, enabling quick design validation and iteration before committing to production.",
+        "provider": { "@type": "Organization", "name": "Lamina 3DCP", "url": "https://lamina3dcp.com" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Service",
+        "name": "Industrial 3D Printing",
+        "description": "Industrial-grade additive manufacturing for durable, dimensionally accurate parts suited to demanding applications.",
+        "provider": { "@type": "Organization", "name": "Lamina 3DCP", "url": "https://lamina3dcp.com" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Service",
+        "name": "Additive Manufacturing",
+        "description": "End-to-end additive manufacturing services that build parts layer by layer directly from digital models.",
+        "provider": { "@type": "Organization", "name": "Lamina 3DCP", "url": "https://lamina3dcp.com" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Service",
+        "name": "Custom Part Production",
+        "description": "Production of bespoke parts tailored to specific geometries, tolerances, and functional requirements.",
+        "provider": { "@type": "Organization", "name": "Lamina 3DCP", "url": "https://lamina3dcp.com" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Service",
+        "name": "Product Development Support",
+        "description": "Hands-on support across the product development lifecycle, from concept refinement to manufacturable design.",
+        "provider": { "@type": "Organization", "name": "Lamina 3DCP", "url": "https://lamina3dcp.com" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Service",
+        "name": "Engineering Consultation",
+        "description": "Expert engineering guidance on design for additive manufacturing, material selection, and process optimization.",
+        "provider": { "@type": "Organization", "name": "Lamina 3DCP", "url": "https://lamina3dcp.com" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Service",
+        "name": "Low-Volume Manufacturing",
+        "description": "Cost-effective low-volume production runs without the tooling costs associated with traditional manufacturing.",
+        "provider": { "@type": "Organization", "name": "Lamina 3DCP", "url": "https://lamina3dcp.com" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Service",
+        "name": "Functional Prototypes",
+        "description": "Working prototypes built with production-representative materials for real-world testing and validation.",
+        "provider": { "@type": "Organization", "name": "Lamina 3DCP", "url": "https://lamina3dcp.com" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Service",
+        "name": "Manufacturing Optimization",
+        "description": "Analysis and refinement of designs and processes to improve manufacturability, performance, and efficiency.",
+        "provider": { "@type": "Organization", "name": "Lamina 3DCP", "url": "https://lamina3dcp.com" }
+      }
+    }
+  ]
+}

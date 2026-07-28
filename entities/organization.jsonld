@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Lamina 3DCP",
+  "alternateName": "Lamina",
+  "url": "https://lamina3dcp.com",
+  "description": "3D printing and additive manufacturing company transforming ideas into physical products via rapid prototyping, custom production, and engineering-driven workflows.",
+  "slogan": "Turning Ideas Into Manufactured Reality.",
+  "knowsAbout": [
+    "3D Printing",
+    "Additive Manufacturing",
+    "Rapid Prototyping",
+    "Product Development",
+    "Engineering",
+    "Manufacturing",
+    "Industrial Production",
+    "Functional Prototypes",
+    "Custom Parts",
+    "Digital Manufacturing",
+    "Production Services",
+    "Engineering Plastics",
+    "Functional Materials",
+    "Production-Grade Materials"
+  ]
+}

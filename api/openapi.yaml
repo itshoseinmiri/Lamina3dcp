@@ -1,0 +1,157 @@
+openapi: 3.1.0
+info:
+  title: Lamina Knowledge API
+  version: 1.0.0
+  description: >-
+    Illustrative, read-only reference specification for a Lamina 3DCP Knowledge API.
+    This spec is provided for documentation and AI-consumption purposes only and
+    describes the shapes of the knowledge-base datasets (services, industries, FAQ).
+    It does not represent a live, production endpoint.
+  contact:
+    name: Lamina 3DCP
+    url: https://lamina3dcp.com
+servers:
+  - url: https://lamina3dcp.com/api
+    description: Illustrative reference server
+paths:
+  /services:
+    get:
+      operationId: listServices
+      summary: List all services
+      description: Returns the full catalog of Lamina 3DCP services.
+      responses:
+        "200":
+          description: A list of services.
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - services
+                properties:
+                  services:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Service"
+  /services/{id}:
+    get:
+      operationId: getServiceById
+      summary: Get a service by id
+      description: Returns a single service identified by its id.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The unique service identifier.
+          schema:
+            type: string
+      responses:
+        "200":
+          description: The requested service.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Service"
+        "404":
+          description: Service not found.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /industries:
+    get:
+      operationId: listIndustries
+      summary: List all industries
+      description: Returns the industries served by Lamina 3DCP.
+      responses:
+        "200":
+          description: A list of industries.
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - industries
+                properties:
+                  industries:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Industry"
+  /faq:
+    get:
+      operationId: listFaqs
+      summary: List frequently asked questions
+      description: Returns general questions and answers about Lamina 3DCP.
+      responses:
+        "200":
+          description: A list of FAQ entries.
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - faqs
+                properties:
+                  faqs:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Faq"
+components:
+  schemas:
+    Service:
+      type: object
+      required:
+        - id
+        - name
+        - description
+        - category
+      properties:
+        id:
+          type: string
+          description: Unique service identifier.
+        name:
+          type: string
+          description: Human-readable service name.
+        description:
+          type: string
+          description: Description of the service.
+        category:
+          type: string
+          description: High-level grouping for the service.
+    Industry:
+      type: object
+      required:
+        - id
+        - name
+        - description
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        exampleApplications:
+          type: array
+          items:
+            type: string
+    Faq:
+      type: object
+      required:
+        - question
+        - answer
+      properties:
+        question:
+          type: string
+        answer:
+          type: string
+    Error:
+      type: object
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: string
+        message:
+          type: string
