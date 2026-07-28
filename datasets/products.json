@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": "rapid-prototyping",
+      "name": "Rapid Prototyping",
+      "summary": "Quick-turnaround prototypes produced directly from CAD data to validate form, fit, and design intent early in development, reducing risk before investing in production.",
+      "appliesTo": ["Automotive", "Aerospace", "Consumer Products", "Electronics", "Startups"]
+    },
+    {
+      "id": "industrial-3d-printing",
+      "name": "Industrial 3D Printing",
+      "summary": "High-performance additive manufacturing for robust, precise components able to meet the mechanical and dimensional demands of industrial use.",
+      "appliesTo": ["Automotive", "Aerospace", "Industrial Equipment", "Electronics"]
+    },
+    {
+      "id": "additive-manufacturing",
+      "name": "Additive Manufacturing",
+      "summary": "Comprehensive layer-by-layer manufacturing services that turn digital models into physical parts with complex geometries not feasible with conventional methods.",
+      "appliesTo": ["Automotive", "Aerospace", "Architecture", "Industrial Equipment", "Consumer Products", "Electronics", "Healthcare"]
+    },
+    {
+      "id": "custom-parts",
+      "name": "Custom Part Production",
+      "summary": "Bespoke part manufacturing tailored to unique specifications, tolerances, and functional needs, ideal for replacement, specialty, and one-off components.",
+      "appliesTo": ["Automotive", "Industrial Equipment", "Consumer Products", "Electronics", "Healthcare"]
+    },
+    {
+      "id": "product-development",
+      "name": "Product Development Support",
+      "summary": "Collaborative support guiding products from early concept through manufacturable design, aligning engineering, materials, and production considerations.",
+      "appliesTo": ["Consumer Products", "Electronics", "Startups", "Healthcare"]
+    },
+    {
+      "id": "engineering-consultation",
+      "name": "Engineering Consultation",
+      "summary": "Advisory engagements covering design for additive manufacturing, material selection, and process strategy to maximize part performance and manufacturability.",
+      "appliesTo": ["Automotive", "Aerospace", "Industrial Equipment", "Startups"]
+    },
+    {
+      "id": "low-volume-manufacturing",
+      "name": "Low-Volume Manufacturing",
+      "summary": "Tooling-free production of small to medium batches, enabling economical short runs, bridge production, and market testing.",
+      "appliesTo": ["Consumer Products", "Electronics", "Industrial Equipment", "Startups"]
+    },
+    {
+      "id": "functional-prototypes",
+      "name": "Functional Prototypes",
+      "summary": "Test-ready prototypes made from production-representative materials to validate mechanical performance and real-world behavior before scaling.",
+      "appliesTo": ["Automotive", "Aerospace", "Industrial Equipment", "Consumer Products", "Healthcare"]
+    },
+    {
+      "id": "manufacturing-optimization",
+      "name": "Manufacturing Optimization",
+      "summary": "Design and process refinement services that improve manufacturability, reduce waste, and enhance the efficiency and quality of produced parts.",
+      "appliesTo": ["Automotive", "Aerospace", "Industrial Equipment", "Electronics"]
+    }
+  ]
+}

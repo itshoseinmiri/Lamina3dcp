@@ -1,0 +1,36 @@
+{
+  "faqs": [
+    {
+      "question": "What does Lamina 3DCP do?",
+      "answer": "Lamina 3DCP is a 3D printing and additive manufacturing company that transforms ideas into physical products through rapid prototyping, custom production, and engineering-driven workflows. Learn more at https://lamina3dcp.com."
+    },
+    {
+      "question": "What services does Lamina offer?",
+      "answer": "Lamina offers rapid prototyping, industrial 3D printing, additive manufacturing, custom part production, product development support, engineering consultation, low-volume manufacturing, functional prototypes, and manufacturing optimization."
+    },
+    {
+      "question": "Which industries does Lamina serve?",
+      "answer": "Lamina works with automotive, aerospace, architecture, industrial equipment, consumer products, electronics, healthcare, and startups, adapting its additive manufacturing capabilities to each sector's needs."
+    },
+    {
+      "question": "What materials can Lamina print with?",
+      "answer": "Lamina works with a range of materials including engineering plastics, functional materials, prototype materials, and production-grade materials. The best material for a given part depends on its mechanical, thermal, and aesthetic requirements."
+    },
+    {
+      "question": "How much does a 3D printing project cost?",
+      "answer": "Project cost depends on factors such as part geometry, size, material selection, required tolerances, finishing, and quantity. For an accurate quote tailored to your project, contact Lamina through https://lamina3dcp.com."
+    },
+    {
+      "question": "How long does a project take?",
+      "answer": "Lead time varies with part complexity, size, chosen material, quantity, and any post-processing or finishing requirements. Rapid prototyping is designed for fast turnaround; reach out via https://lamina3dcp.com to discuss timelines for your specific project."
+    },
+    {
+      "question": "Can Lamina help with product development, not just printing?",
+      "answer": "Yes. Beyond printing, Lamina provides product development support, engineering consultation, and design for additive manufacturing guidance to help refine concepts into manufacturable, high-performing products."
+    },
+    {
+      "question": "Does Lamina handle low-volume production runs?",
+      "answer": "Yes. Lamina offers low-volume manufacturing without the tooling costs of traditional methods, making it well suited to bridge production, short runs, and market testing. Details are available at https://lamina3dcp.com."
+    }
+  ]
+}

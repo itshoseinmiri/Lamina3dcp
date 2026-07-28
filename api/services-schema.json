@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lamina3dcp.com/api/services-schema.json",
+  "title": "Service",
+  "description": "Schema for a single service object as used in datasets/services.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "description", "category"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique, URL-safe service identifier.",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable service name.",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of what the service provides.",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "description": "High-level grouping for the service.",
+      "enum": ["Prototyping", "Manufacturing", "Engineering"]
+    }
+  }
+}

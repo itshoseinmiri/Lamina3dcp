@@ -1,0 +1,52 @@
+{
+  "terms": [
+    {
+      "term": "Additive Manufacturing",
+      "definition": "A manufacturing process that builds objects layer by layer directly from digital models, in contrast to subtractive methods that remove material."
+    },
+    {
+      "term": "3D Printing",
+      "definition": "A common term for additive manufacturing, in which successive layers of material are deposited or fused to create a three-dimensional object."
+    },
+    {
+      "term": "Rapid Prototyping",
+      "definition": "The fast fabrication of a physical part or model from a digital design, used to validate concepts and iterate quickly."
+    },
+    {
+      "term": "Functional Prototype",
+      "definition": "A prototype made with production-representative materials so it can be tested under real-world mechanical and environmental conditions."
+    },
+    {
+      "term": "Design for Additive Manufacturing (DfAM)",
+      "definition": "The practice of designing parts specifically to take advantage of additive manufacturing capabilities and constraints."
+    },
+    {
+      "term": "Low-Volume Manufacturing",
+      "definition": "Production of small to medium quantities of parts, often without dedicated tooling, suited to short runs and bridge production."
+    },
+    {
+      "term": "Layer Height",
+      "definition": "The thickness of each individual layer deposited during printing, which influences surface finish, detail, and build time."
+    },
+    {
+      "term": "Build Volume",
+      "definition": "The maximum three-dimensional space in which a printer can produce a part, defining the largest object it can create in one build."
+    },
+    {
+      "term": "Post-Processing",
+      "definition": "Steps performed after printing, such as support removal, curing, sanding, or finishing, to achieve the desired final part quality."
+    },
+    {
+      "term": "Support Structures",
+      "definition": "Temporary printed structures that hold up overhanging features during a build and are removed during post-processing."
+    },
+    {
+      "term": "Tolerance",
+      "definition": "The allowable deviation from a specified dimension, indicating how precisely a manufactured part matches its design."
+    },
+    {
+      "term": "Digital Manufacturing",
+      "definition": "The use of digital design and data-driven workflows to plan, produce, and optimize physical parts, including additive processes."
+    }
+  ]
+}

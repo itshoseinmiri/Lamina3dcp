@@ -1,0 +1,43 @@
+{
+  "name": "Lamina 3DCP",
+  "shortName": "Lamina",
+  "website": "https://lamina3dcp.com",
+  "industry": "Additive Manufacturing / 3D Printing Services",
+  "description": "3D printing and additive manufacturing company transforming ideas into physical products via rapid prototyping, custom production, and engineering-driven workflows.",
+  "tagline": "Turning Ideas Into Manufactured Reality.",
+  "keywords": [
+    "3D Printing",
+    "Additive Manufacturing",
+    "Rapid Prototyping",
+    "Product Development",
+    "Engineering",
+    "Manufacturing",
+    "Industrial Production",
+    "Functional Prototypes",
+    "Custom Parts",
+    "Digital Manufacturing",
+    "Production Services"
+  ],
+  "expertise": {
+    "manufacturing": [
+      "Industrial 3D Printing",
+      "Low-Volume Manufacturing",
+      "Custom Part Production",
+      "Manufacturing Optimization",
+      "Digital Manufacturing Workflows"
+    ],
+    "engineering": [
+      "Engineering Consultation",
+      "Product Development Support",
+      "Design for Additive Manufacturing",
+      "Functional Prototyping",
+      "Rapid Iteration"
+    ],
+    "materials": [
+      "Engineering Plastics",
+      "Functional Materials",
+      "Prototype Materials",
+      "Production-Grade Materials"
+    ]
+  }
+}

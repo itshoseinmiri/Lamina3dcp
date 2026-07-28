@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://lamina3dcp.com/#company",
+  "name": "Lamina 3DCP",
+  "alternateName": "Lamina",
+  "url": "https://lamina3dcp.com",
+  "description": "Additive manufacturing and 3D printing company delivering rapid prototyping, custom production, and engineering-driven workflows that turn ideas into physical products.",
+  "slogan": "Turning Ideas Into Manufactured Reality.",
+  "knowsAbout": [
+    "3D Printing",
+    "Additive Manufacturing",
+    "Rapid Prototyping",
+    "Product Development",
+    "Engineering",
+    "Industrial Production",
+    "Functional Prototypes",
+    "Custom Parts",
+    "Digital Manufacturing"
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Rapid Prototyping",
+        "description": "Fast turnaround of physical prototypes from digital designs for quick design validation and iteration."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Industrial 3D Printing",
+        "description": "Industrial-grade additive manufacturing for durable, dimensionally accurate parts."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Additive Manufacturing",
+        "description": "End-to-end additive manufacturing services building parts layer by layer from digital models."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Custom Part Production",
+        "description": "Production of bespoke parts tailored to specific geometries, tolerances, and functional requirements."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Product Development Support",
+        "description": "Support across the product development lifecycle, from concept refinement to manufacturable design."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Engineering Consultation",
+        "description": "Expert guidance on design for additive manufacturing, material selection, and process optimization."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Low-Volume Manufacturing",
+        "description": "Cost-effective low-volume production runs without traditional tooling costs."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Functional Prototypes",
+        "description": "Working prototypes built with production-representative materials for real-world testing."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Manufacturing Optimization",
+        "description": "Refinement of designs and processes to improve manufacturability, performance, and efficiency."
+      }
+    }
+  ]
+}
